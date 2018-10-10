@@ -1,0 +1,68 @@
+body {
+	
+}
+
+#headerBannerContainer {
+	display: flex;
+	height: 40px;
+	background-color: green;
+	justify-content: flex-end;
+}
+
+#bannerLinkContainer {
+	height: 100%;
+	width: 35%;
+	background-color: blue;
+	display: flex;
+	justify-content: space-around;
+	margin-right: 5%;
+}
+
+.bannerLinkIndividual {
+	display: flex;
+	width: 150px;
+	height: 100%;
+	background-color: greenyellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bannerLinkActual {
+	font-size: 12px;
+	text-decoration: none;
+	color: white;
+}
+#commercialServiceLinkIcon {
+	height: 10px;
+	margin: 10px;
+}
+
+
+/* Small Screens (Phones) */
+
+@media (max-width:600px) {
+	#headerBannerContainer {
+		display: none;
+	}
+}
+
+/* Medium Screens (Tablets) */
+
+@media (min-width:601px) and (max-width:900px) {
+	#headerBannerContainer {
+		display: none;
+	}
+}
+
+/* Large Screens (Desktops) */
+
+@media (max-width: 1200) {
+
+}
+
+
+
+
+/* Header Section */
+
